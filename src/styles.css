@@ -74,18 +74,11 @@ footer>h2{font-size:90%}
 
 /* Consolidated Space Disco release checkpoint: catalogue, SDR544, motion, logo + footer refinements. */
 
-/* Flip header/footer logo sizes — explicit cascade-safe override */
-nav .logoBrand{width:180px;height:64px}
-footer .footerLogo{width:220px;max-width:70%;height:auto}
-@media(max-width:850px){
-  nav .logoBrand{width:180px;height:64px}
-  footer .footerLogo{width:220px;max-width:70%}
-}
 
-/* Final optical logo size inversion: footer small, header large */
-nav .logoBrand{width:220px!important;height:68px!important}
-footer .footerLogo{width:180px!important;max-width:none!important;height:auto!important}
+/* Canonical logo sizing: large header, small footer */
+nav a.logoBrand{width:220px!important;height:68px!important;max-width:none!important}
+footer img.footerLogo{width:118px!important;max-width:none!important;height:auto!important}
 @media(max-width:850px){
-  nav .logoBrand{width:220px!important;height:68px!important}
-  footer .footerLogo{width:180px!important;max-width:none!important}
+  nav a.logoBrand{width:180px!important;height:64px!important}
+  footer img.footerLogo{width:105px!important;max-width:none!important}
 }
