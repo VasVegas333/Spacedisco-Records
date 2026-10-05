@@ -1,0 +1,27 @@
+name: Sync Squarespace content
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/sync-squarespace.mjs'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pull content from Squarespace
+        run: node scripts/sync-squarespace.mjs
+      - name: Commit Squarespace changes
+        run: |
+          git config user.name "spacedisco-content-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/artists.json
+          git diff --cached --quiet || git commit -m "Auto-sync Squarespace content"
+          git push
