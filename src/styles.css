@@ -73,3 +73,11 @@ footer>h2{font-size:90%}
 }
 
 /* Consolidated Space Disco release checkpoint: catalogue, SDR544, motion, logo + footer refinements. */
+
+/* Flip header/footer logo sizes */
+.logoBrand{width:180px;height:64px}
+.footerLogo{width:min(220px,70%)}
+@media(max-width:850px){
+  .logoBrand{width:180px;height:64px}
+  .footerLogo{width:min(220px,70%)}
+}
