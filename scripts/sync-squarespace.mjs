@@ -83,6 +83,7 @@ async function main(){
       const hit=musicImages.find(u=>re.test(normalized(u)));
       if(hit)return hit;
     }
+    if(release.catalog==='SDR544')return musicImages.find(u=>/132c0795-e17d-425a-9997-e5f5d554b8b7/i.test(u))||'';
     if(/10 year part 2/i.test(release.title||''))return musicImages.find(u=>/10 Year Pt 2/i.test(normalized(u)))||'';
     return '';
   };
