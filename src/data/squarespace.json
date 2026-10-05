@@ -1,10 +1,10 @@
 {
-  "source": "https://spacediscorecords.com",
-  "syncedAt": "2026-10-05T23:21:40.115Z",
+  "source": "https://spacediscorecords.squarespace.com",
+  "syncedAt": "2026-10-05T23:37:41.131Z",
   "pages": {
     "/": {
       "path": "/",
-      "url": "https://spacediscorecords.com/",
+      "url": "https://spacediscorecords.squarespace.com/",
       "title": "Spacedisco Records",
       "description": "",
       "headings": [
@@ -44,15 +44,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/#page"
+          "href": "https://spacediscorecords.squarespace.com/#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -64,11 +64,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -92,7 +92,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -128,7 +128,7 @@
         },
         {
           "label": "Click",
-          "href": "https://spacediscorecords.com/events"
+          "href": "https://spacediscorecords.squarespace.com/events"
         },
         {
           "label": "Listen",
@@ -144,14 +144,14 @@
         },
         {
           "label": "Shop",
-          "href": "https://spacediscorecords.com/merch"
+          "href": "https://spacediscorecords.squarespace.com/merch"
         }
       ],
       "text": "Spacedisco Records 0 Skip to Content Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Make it stand out. Upcoming Events Click to view events Click Latest Release Browse the latest Spacedisco Records releases… Listen Latest Album Browse the latest Spacedisco Records albums! Listen Mixes Click to check out our latest DJ mixes… Listen Spacedisco Merchandise Shop limited run of exclusive Spacedisco merchandise… Shop Newsletter Block This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab. Join Spacedisco Records Sign up with your email address to subscribe to the Spacedisco Records newsletter and connect with us! Email Address Sign Up Thank you!"
     },
     "/music": {
       "path": "/music",
-      "url": "https://spacediscorecords.com/music",
+      "url": "https://spacediscorecords.squarespace.com/music",
       "title": "Music &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -717,15 +717,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/music#page"
+          "href": "https://spacediscorecords.squarespace.com/music#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -737,11 +737,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -765,7 +765,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -2976,7 +2976,7 @@
     },
     "/albums": {
       "path": "/albums",
-      "url": "https://spacediscorecords.com/albums",
+      "url": "https://spacediscorecords.squarespace.com/albums",
       "title": "Albums &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -3045,15 +3045,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/albums#page"
+          "href": "https://spacediscorecords.squarespace.com/albums#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -3065,11 +3065,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -3093,7 +3093,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -3332,7 +3332,7 @@
     },
     "/artists": {
       "path": "/artists",
-      "url": "https://spacediscorecords.com/artists",
+      "url": "https://spacediscorecords.squarespace.com/artists",
       "title": "ARTISTS &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -3736,15 +3736,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/artists#page"
+          "href": "https://spacediscorecords.squarespace.com/artists#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -3756,11 +3756,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -3784,7 +3784,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -3859,7 +3859,7 @@
     },
     "/events": {
       "path": "/events",
-      "url": "https://spacediscorecords.com/events",
+      "url": "https://spacediscorecords.squarespace.com/events",
       "title": "EVENTS &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -4079,15 +4079,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/events#page"
+          "href": "https://spacediscorecords.squarespace.com/events#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -4099,11 +4099,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -4127,7 +4127,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -4175,7 +4175,7 @@
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/="
+          "href": "https://spacediscorecords.squarespace.com/="
         },
         {
           "label": "",
@@ -4198,7 +4198,7 @@
     },
     "/mixes": {
       "path": "/mixes",
-      "url": "https://spacediscorecords.com/mixes",
+      "url": "https://spacediscorecords.squarespace.com/mixes",
       "title": "MIXES &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -4295,15 +4295,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/mixes#page"
+          "href": "https://spacediscorecords.squarespace.com/mixes#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -4315,11 +4315,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -4343,7 +4343,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -4694,7 +4694,7 @@
     },
     "/demos": {
       "path": "/demos",
-      "url": "https://spacediscorecords.com/demos",
+      "url": "https://spacediscorecords.squarespace.com/demos",
       "title": "Demos &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -4713,15 +4713,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/demos#page"
+          "href": "https://spacediscorecords.squarespace.com/demos#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -4733,11 +4733,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -4761,7 +4761,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
@@ -4800,7 +4800,7 @@
     },
     "/playlist": {
       "path": "/playlist",
-      "url": "https://spacediscorecords.com/playlist",
+      "url": "https://spacediscorecords.squarespace.com/playlist",
       "title": "PLAYLIST &mdash; Spacedisco Records",
       "description": "",
       "headings": [
@@ -4820,15 +4820,15 @@
       "links": [
         {
           "label": "0",
-          "href": "https://spacediscorecords.com/cart"
+          "href": "https://spacediscorecords.squarespace.com/cart"
         },
         {
           "label": "Skip to Content",
-          "href": "https://spacediscorecords.com/playlist#page"
+          "href": "https://spacediscorecords.squarespace.com/playlist#page"
         },
         {
           "label": "",
-          "href": "https://spacediscorecords.com/"
+          "href": "https://spacediscorecords.squarespace.com/"
         },
         {
           "label": "Home",
@@ -4840,11 +4840,11 @@
         },
         {
           "label": "Music",
-          "href": "https://spacediscorecords.com/music"
+          "href": "https://spacediscorecords.squarespace.com/music"
         },
         {
           "label": "Albums",
-          "href": "https://spacediscorecords.com/albums"
+          "href": "https://spacediscorecords.squarespace.com/albums"
         },
         {
           "label": "Merch",
@@ -4868,7 +4868,7 @@
         },
         {
           "label": "Demos",
-          "href": "https://spacediscorecords.com/demos"
+          "href": "https://spacediscorecords.squarespace.com/demos"
         },
         {
           "label": "",
