@@ -1,0 +1,24 @@
+name: Sync Spacedisco releases
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync Beatport and Traxsource catalogue
+        run: node scripts/sync-releases.mjs
+      - name: Commit catalogue changes
+        run: |
+          git config user.name "spacedisco-catalog-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/releases.json
+          git diff --cached --quiet || git commit -m "Auto-sync Spacedisco releases"
+          git push
