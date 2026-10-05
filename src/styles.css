@@ -262,3 +262,13 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
 .demoSend:disabled{opacity:.28;cursor:not-allowed}
 .demoFine{font-size:9px!important;color:#777!important;line-height:1.6!important;margin-top:14px!important}
 @media(max-width:800px){.demoSubmit{grid-template-columns:1fr}.demoIntro,.demoForm{padding:70px 5vw}.demoIntro h2{font-size:clamp(62px,18vw,105px)}}
+
+/* Restore footer statement close to its original scale, with a little more restraint */
+footer>h2{
+  font-size:clamp(88px,15.5vw,235px)!important;
+  line-height:.78!important;
+  letter-spacing:-.075em!important;
+}
+@media(max-width:700px){
+  footer>h2{font-size:clamp(76px,22vw,145px)!important}
+}
