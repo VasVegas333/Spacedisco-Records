@@ -24,3 +24,9 @@ nav{height:116px;display:grid;grid-template-columns:1fr auto 1fr;grid-template-r
 }
 
 @media(min-width:851px){nav .menu{display:none}}
+
+
+/* Optical centering: the source logo artwork has extra transparent space on its right edge. */
+@media(min-width:851px){
+  .logoBrand img{transform:translateX(8%)}
+}
