@@ -12,13 +12,12 @@ const cards=(path)=>page(path).headings
   .map((h,i)=>({title:h.text,image:page(path).images[i]||'',link:page(path).links[i]?.href||''}));
 
 // These are sourced from Squarespace only. No invented event or mix records.
-export const events=cards('/events').map((x,i)=>({
-  date:'',
-  city:x.title,
-  venue:'',
-  detail:'',
-  image:x.image,
-  link:x.link,
+const eventPage=page('/events');
+const eventImages=eventPage.images.filter(src=>!/spacedisco[+%20].*logo/i.test(src));
+const ticketLinks=eventPage.links.filter(x=>/ticket/i.test(x.label)||/tickettailor/i.test(x.href));
+export const events=eventImages.map((image,i)=>({
+  image,
+  link:ticketLinks[i]?.href||'',
   source:'Squarespace',
   number:String(i+1).padStart(2,'0')
 }));
