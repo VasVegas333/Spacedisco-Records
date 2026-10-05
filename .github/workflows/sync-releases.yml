@@ -1,5 +1,8 @@
 name: Sync Spacedisco releases
 on:
+  push:
+    paths:
+      - 'scripts/sync-releases.mjs'
   schedule:
     - cron: '17 9 * * *'
   workflow_dispatch:
