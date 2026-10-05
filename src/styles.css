@@ -22,3 +22,5 @@ nav{height:116px;display:grid;grid-template-columns:1fr auto 1fr;grid-template-r
   .navlinks.open{top:80px}
   .menu{margin-left:auto}
 }
+
+@media(min-width:851px){nav .menu{display:none}}
