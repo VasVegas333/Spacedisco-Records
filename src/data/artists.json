@@ -1,51 +1,695 @@
 [
   {
     "name": "HATIRAS",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645570427992-QPAQWFBV8O052QBYSWBN/Hatiras%2BPurple%2BSQ%2B3.png",
     "slug": "hatiras",
-    "location": "Toronto / Canada",
-    "bio": "Producer, DJ and founder of Spacedisco Records. House music built for movement."
-  },
-  {
-    "name": "ANGELO FERRERI",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569077653-55YSJMLSW4CG0NDWD1IS/Angello%2BFerreri%2BRed%2BSQ.png",
-    "slug": "angelo-ferreri",
-    "location": "Italy",
-    "bio": "Funk-driven house with a signature rhythmic pulse."
-  },
-  {
-    "name": "THE CUBE GUYS",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/f057f363-a24b-49f1-8879-59fea95ee7b1/The%2BCube%2BGuys.png",
-    "slug": "the-cube-guys",
-    "location": "Italy",
-    "bio": "Club-focused house engineered for peak-time rooms."
-  },
-  {
-    "name": "SEBB JUNIOR",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569963954-8V0LQ3EESMY9RXREFIHX/Sebb%2BJunior%2BPink%2BSQ.png",
-    "slug": "sebb-junior",
-    "location": "France / Spain",
-    "bio": "Deep, soulful and groove-led house music."
-  },
-  {
-    "name": "DEMARKUS LEWIS",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645544863738-OXO2GONZH1LN6XM4TYDQ/Demarkus%2BLewis%2BYellow%2BSQ.png",
-    "slug": "demarkus-lewis",
-    "location": "USA",
-    "bio": "Forward house grooves with a raw club sensibility."
-  },
-  {
-    "name": "TREASURE FINGERS",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569294963-JPH912C6P36UM9LNVOIO/Treasure%2BFingers%2BGreen%2BSQ.png",
-    "slug": "treasure-fingers",
-    "location": "USA",
-    "bio": "Disco-informed electronic music with undeniable swing."
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645570427992-QPAQWFBV8O052QBYSWBN/Hatiras+Purple+SQ+3.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
   },
   {
     "name": "VINCENT CAIRA",
-    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505827468-Q5DW8XSIFR8GATQK1ZXM/Vincent%2BCaira%2BSQ%2BYellow.png",
     "slug": "vincent-caira",
-    "location": "Toronto / Canada",
-    "bio": "Toronto house music with classic foundations and modern pressure."
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505827468-Q5DW8XSIFR8GATQK1ZXM/Vincent+Caira+SQ+Yellow.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANDY REID",
+    "slug": "andy-reid",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645553881702-M2P0XO1FFXGHT75GTY2X/Andy+Reid+Red.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANDREAS AMATO",
+    "slug": "andreas-amato",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/f5884b3d-3651-4be8-8884-37e446a2f403/Andreas+Amato+Pink+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANGELO FERRERI",
+    "slug": "angelo-ferreri",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569077653-55YSJMLSW4CG0NDWD1IS/Angello+Ferreri+Red+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANTE PERRY",
+    "slug": "ante-perry",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1652189784602-KC5Y6OLT4UPDDOHZ5WG2/Ante+Perry+SD+Blue.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANTOINE CLAMARAN",
+    "slug": "antoine-clamaran",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/95d9a603-7fd0-4f5e-81f2-2260dcf5dd2f/Antoine+Clamaran.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ANZU",
+    "slug": "anzu",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2058c81a-48a3-44f0-a984-4a710472e194/Anzu+Blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "AUSTINS GROOVE",
+    "slug": "austins-groove",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645545133040-5TJURBK8BWSKZ22JR3DC/Austins+Groove+Pink+Q.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "BAS ROOS",
+    "slug": "bas-roos",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/0a1d8224-1d01-48ba-92c8-52c5e4f32b39/Bas+Roos.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "BISHØP",
+    "slug": "bish-p",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1647879045890-OI87V54NEMNFZUU6CU7I/Bishop+Pink+SQ+2.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "BRETT RUBIN",
+    "slug": "brett-rubin",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1652188718365-B3UBYRP80JC5OF0H7C9Y/Brett+Rubin+SD+Orange.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "BROCK EDWARDS",
+    "slug": "brock-edwards",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505936599-VE99U5P9S9VEAES3OEJG/Brock+Edwards+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "CAIO CENCI",
+    "slug": "caio-cenci",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/601f39fb-68bf-4e7d-bf90-edfa42d06d93/Caio+Cenci.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "CHARLIE SPUTNIK",
+    "slug": "charlie-sputnik",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/4add7271-5725-4321-b253-96da3ed5b325/Charlie+Sputnik+Yellow+SQB.png",
+    "email": "spacediscorecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "CARLOSTELLA",
+    "slug": "carlostella",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/be6e8068-e7ae-4605-ae2b-db0a9d4dfc1d/Carlostella+Red+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "CRISTIAN VOLPE",
+    "slug": "cristian-volpe",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/ae3573f1-75cf-4970-b788-8a2ec0cd598c/Cristian+Volpe+yellow.png",
+    "email": "Spacediscorecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DA FUNK JUNKIES",
+    "slug": "da-funk-junkies",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/429bffcd-cec9-48fd-b6df-e668c69573dc/Da+Funk+Junkies+Red+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DAN CORCO",
+    "slug": "dan-corco",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/51bbe96a-59cb-4e0e-92ce-ca1b5bcf5ca4/Dan+Corco+Green.png",
+    "email": "Spacediscorecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DANIELE DOVICO",
+    "slug": "daniele-dovico",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/b3481770-8cf3-481f-be71-f4dfd747edbb/Daniele+Dovico+Purple+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DAN:ROS",
+    "slug": "dan-ros",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645553200138-VBZUJ9U4J830JAMB41P5/Dan+Ros+Red+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DANNY CRUZ",
+    "slug": "danny-cruz",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/83f320f7-516f-4d7a-a510-238394636dac/Danny+Cruz+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DANNY MARX",
+    "slug": "danny-marx",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/55344ffe-8953-4b70-af9f-d128a7062c26/Danny+Marx+Yellow+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DEEPLOMATIK",
+    "slug": "deeplomatik",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/8bf493e2-27fa-4ca4-88c6-d2bdd8f870aa/Deeplomatik+Yellow+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DEMARKUS LEWIS",
+    "slug": "demarkus-lewis",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645544863738-OXO2GONZH1LN6XM4TYDQ/Demarkus+Lewis+Yellow+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DC SOUNDSYSTEM",
+    "slug": "dc-soundsystem",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/a90ecb03-50de-44bc-94ce-77ce2c15b576/DC+Soundsystem+Purple+SD+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DISCO BALL'Z",
+    "slug": "disco-ball-z",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1662038282965-TNWADZO27THHXIWQQ8S3/Disco+Ball%27z+SQ+Yellow.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DISCOGALACTIX",
+    "slug": "discogalactix",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/c389ae16-feb7-46e4-93d0-6a2231d97d12/DiscoGalactiX+Pink+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DIVINE",
+    "slug": "divine",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645576374292-GQR8IEMT4F7RPNBP3IB9/DiVine+Pink+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DIRTY SECRETZ",
+    "slug": "dirty-secretz",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645545487253-YSUBY5O9MFU1XIFIIIPI/Dirty+Secretz+Blue+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DJ DOVE",
+    "slug": "dj-dove",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1646421225892-2WD4REJ0LPRCBP5C6TAS/DJ+Dove+SD+Colour.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DJ ROMAIN",
+    "slug": "dj-romain",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645570194351-CHJGRFE9QJUUNKENL1MM/DJ+Romain+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "DUSKOPE",
+    "slug": "duskope",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505984414-UIT0Y8XI0UDMTEJ1BF12/Duskope+Pink+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "EL FUNKADOR",
+    "slug": "el-funkador",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1650593097995-2QV3SSQTBS4FXL0N24EL/El+Funkador+SQ2.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "EMZY",
+    "slug": "emzy",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/dd66ba15-f2eb-4347-aec1-348a82f591aa/Emzy+Blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "FDF (ITALY)",
+    "slug": "fdf-italy",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/e4377bc8-7ab9-4599-a7a1-382f6b1c1aea/FDF+Yellow+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "FLO MRZDK",
+    "slug": "flo-mrzdk",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1652190295955-XZWGRXFM9DFBBITNP1IB/Flo+Mrzdk+SD+Red.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "FOLKNESS",
+    "slug": "folkness",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/84a9dff9-90b9-4346-ba42-0f159919ace5/Folkness+Blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "GETTOBLASTER",
+    "slug": "gettoblaster",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505894924-6SC8Z9BTZXER3FIZTG9W/Gettoblaster+pink+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "HP VINCE",
+    "slug": "hp-vince",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645588609972-EQLVEXURJD9ZWXL58NIE/HP+Vince+Yellow+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JAMES JUKE",
+    "slug": "james-juke",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1649940826042-4B8KUFQH1LYL1S2TAX3T/James+Juke+Yellow+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JARRED GALLO",
+    "slug": "jarred-gallo",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645553689417-XN8I8R5JA4RH1XIDNLLM/Jarred+Gallo+Green+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JASON HODGES",
+    "slug": "jason-hodges",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645681031151-NDSC1SNSJXETRHICM7HW/Jason+Hodges+Green+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JAY VEGAS",
+    "slug": "jay-vegas",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/36751a63-3e45-4d7d-bf8b-8ec6c35864e7/Jay+Vegas+SD+yellow.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JEROME ROBINS",
+    "slug": "jerome-robins",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/4ee05204-2d4a-4b33-aeb5-1e109cc639db/Jerome+Robins+Orange+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JESUSDAPNK",
+    "slug": "jesusdapnk",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1648851677041-DYV3U4ZDTD4M3DMYZGC5/Jesusdapnk+SQ+blue.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JO PACIELLO",
+    "slug": "jo-paciello",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/7b236fb4-364b-40b5-881b-01c29ac6d00a/Jo+Paciello.png",
+    "email": "Spacediscorecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "JOHAN S",
+    "slug": "johan-s",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645553445463-HK7GZ30VF7H25ZGL3XJ7/Johan+S+Pink+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "KID MASSIVE",
+    "slug": "kid-massive",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/57e89f25-47f8-472a-a5f5-0a36cf6a6d0e/Kid+Massive+Blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "KOOL KEITH",
+    "slug": "kool-keith",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1651848687211-1SDK05Y43WOCQ3RC0LDQ/Kool+Keith+SD+green.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "LEBARON JAMES",
+    "slug": "lebaron-james",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645506386029-OX6RCL956KEMQQSIMJQV/LeBaron+James+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "LEE WILSON",
+    "slug": "lee-wilson",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645505857713-A9CZVSSQ98Q6NNT6KR2L/Lee+Wilson+Blue+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "LILAH ELIASH",
+    "slug": "lilah-eliash",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/932e273b-7268-4503-a427-ba6402be2de0/Lilah+Eliash.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "LUCCIO B",
+    "slug": "luccio-b",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/6447156f-d826-4e51-b4e0-a08199cd0696/Luccio+B+SD+Yellow.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "MARK FUNK",
+    "slug": "mark-funk",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/082f7389-9a7c-4b8a-be2d-aaba383f0e84/Mark+Funk+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "MARVIN ALOYS",
+    "slug": "marvin-aloys",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2e07a5d8-1194-4839-b224-f827a2cde711/Marvin+Aloys+Red+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "MAX MILLAN",
+    "slug": "max-millan",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/d39fb1f8-412d-4986-a235-6a13f0e9a161/Max+Millan+Pink+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "MIDNIGHT AFFAIR",
+    "slug": "midnight-affair",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/8efee0f3-bb08-4646-ac20-193cac300a46/Midnight+Affair+Yellow+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "MIGHTY MI",
+    "slug": "mighty-mi",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1651848896493-5S07IQD8UQUSQG5RH64S/Mighty+Mi+SD+Yellow.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "OMSON",
+    "slug": "omson",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/053dff4c-dd76-4599-b5d8-9fd84abcff07/Omson+Green+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "PER QX",
+    "slug": "per-qx",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/f241d7a9-a11f-4e89-8653-cf73e70f25b4/Per+QX+pink+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "PETER BROWN",
+    "slug": "peter-brown",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645554089847-IJ8KD7BLAI2D99UTVXTM/Peter+Brown+Blue+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "QUINTEN 909",
+    "slug": "quinten-909",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/5ee8de33-3d8e-4ed2-8973-7a4a570d5260/Quinten+909.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "RAFFAELE CIAVOLINO",
+    "slug": "raffaele-ciavolino",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/c336db71-2942-4b60-a7eb-6871636744ae/Raffaele+Ciavolino+SD+SQ+blue.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "ROEL",
+    "slug": "roel",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/a98e0573-28e8-4454-a3ea-3e86d63bcf8c/Roel+SD+blue.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SAMMY DEUCE",
+    "slug": "sammy-deuce",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645543618098-UOUOA1KD8RCK0H30QOXO/Sammy+Deuce+blue+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SATTAM",
+    "slug": "sattam",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645576042464-OFNZP4HYPWQTMPM54IWY/Sattam+Green+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SEBB JUNIOR",
+    "slug": "sebb-junior",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569963954-8V0LQ3EESMY9RXREFIHX/Sebb+Junior+Pink+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SCOTTY BOY",
+    "slug": "scotty-boy",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/5240c7b0-24a4-4ad1-abfd-abada085a292/Scotty+Boy+Blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SIMON ADAMS",
+    "slug": "simon-adams",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/b5e41e2b-f771-4f6e-902d-55bc806e1927/Simon+Adams+Orange+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "SINNER & JAMES",
+    "slug": "sinner-james",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/a5838ad3-ae19-464c-9eb8-05e9b2a8135c/Sinner+%26+James+Purple+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "TEDDY BLACK",
+    "slug": "teddy-black",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/6234e252-060c-42e6-8e4e-e85140ec488f/Teddy+Black+blue+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "THE CUBE GUYS",
+    "slug": "the-cube-guys",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/f057f363-a24b-49f1-8879-59fea95ee7b1/The+Cube+Guys.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "THE KOLLECTIVE",
+    "slug": "the-kollective",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2153cd40-9771-44b7-a279-c8957c1a85b2/The+Kollective+SD.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "TRAVIS EMMONS",
+    "slug": "travis-emmons",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1652189009549-1Y95C836NK14ZY1T1V18/Travis+Emmon+SD+Orange.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "TREASURE FINGERS",
+    "slug": "treasure-fingers",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569294963-JPH912C6P36UM9LNVOIO/Treasure+Fingers+Green+SQ.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
+  },
+  {
+    "name": "TRICE BE",
+    "slug": "trice-be",
+    "image": "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1652189326253-YWEMD3TGHEWL9JPPPMB6/Trice+Be+SD+Green.png",
+    "email": "SpacediscoRecords@gmail.com",
+    "links": [],
+    "location": "",
+    "bio": ""
   }
 ]
