@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-const DEFAULT_BASE='https://spacediscorecords.com';
+const DEFAULT_BASE='https://spacediscorecords.squarespace.com';
 const BASE=(process.env.SQUARESPACE_SOURCE_BASE||DEFAULT_BASE).replace(/\/$/,'');
 const PAGES=['/','/music','/albums','/artists','/events','/mixes','/demos','/playlist'];
 const REQUIRED=['/','/music','/artists','/events','/mixes','/demos'];
