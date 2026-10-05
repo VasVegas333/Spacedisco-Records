@@ -91,3 +91,22 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
 @media(max-width:850px){
   nav a.logoBrand img{transform:scale(1.35)!important;transform-origin:center center}
 }
+
+/* Homepage lead: latest release + latest event */
+.latestHero{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100vh - 116px);border-bottom:1px solid #333}
+.latestPanel{min-width:0;display:grid;grid-template-columns:1fr minmax(260px,42%);align-items:end;gap:3vw;padding:5vw 2vw;border-right:1px solid #333;overflow:hidden;position:relative}
+.latestPanel:last-child{border-right:0}
+.latestCopy{position:relative;z-index:2}
+.latestCopy small{color:#dfff00}
+.latestCopy h1,.latestCopy h2{font-family:'Archivo Black';font-size:clamp(48px,6vw,105px);line-height:.82;letter-spacing:-.07em;text-transform:uppercase;margin:20px 0}
+.latestCopy h1 em{font-style:normal;color:#dfff00}
+.latestCopy p{font-size:10px;letter-spacing:2px;line-height:1.7;margin:0 0 28px;color:#aaa}
+.latestArtwork{display:block;width:100%;align-self:center}
+.latestArtwork .cover,.latestArtwork>img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.latestArtwork .coverHover{display:none}
+.latestArtwork .cover>span{display:none}
+.eventFeature{background:#dfff00;color:#070707}
+.eventFeature .latestCopy small,.eventFeature .latestCopy p{color:#070707}
+.eventFeature .latestArtwork{box-shadow:18px 18px 0 #070707}
+@media(max-width:1100px){.latestPanel{grid-template-columns:1fr}.latestArtwork{max-width:420px}}
+@media(max-width:700px){.latestHero{grid-template-columns:1fr;min-height:0}.latestPanel{min-height:720px;padding:70px 5vw;grid-template-columns:1fr}.latestPanel:first-child{border-right:0;border-bottom:1px solid #333}.latestCopy h1,.latestCopy h2{font-size:clamp(55px,15vw,90px)}.latestArtwork{max-width:100%}}
