@@ -82,3 +82,12 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
   nav a.logoBrand{width:180px!important;height:64px!important}
   footer img.footerLogo{width:105px!important;max-width:none!important}
 }
+
+/* Header logo visual enlargement: width alone was constrained by the nav grid.
+   Scale the rendered artwork itself while preserving its centered grid footprint. */
+@media(min-width:851px){
+  nav a.logoBrand img{transform:translateX(8%) scale(1.5)!important;transform-origin:center center}
+}
+@media(max-width:850px){
+  nav a.logoBrand img{transform:scale(1.35)!important;transform-origin:center center}
+}
