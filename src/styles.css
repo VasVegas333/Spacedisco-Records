@@ -81,3 +81,11 @@ footer .footerLogo{width:220px;max-width:70%;height:auto}
   nav .logoBrand{width:180px;height:64px}
   footer .footerLogo{width:220px;max-width:70%}
 }
+
+/* Final optical logo size inversion: footer small, header large */
+nav .logoBrand{width:220px!important;height:68px!important}
+footer .footerLogo{width:180px!important;max-width:none!important;height:auto!important}
+@media(max-width:850px){
+  nav .logoBrand{width:220px!important;height:68px!important}
+  footer .footerLogo{width:180px!important;max-width:none!important}
+}
