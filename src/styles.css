@@ -272,3 +272,7 @@ footer>h2{
 @media(max-width:700px){
   footer>h2{font-size:clamp(76px,22vw,145px)!important}
 }
+
+/* Keep Dancing: 10% smaller than the current restored scale */
+footer>h2{font-size:clamp(79.2px,13.95vw,211.5px)!important}
+@media(max-width:700px){footer>h2{font-size:clamp(68.4px,19.8vw,130.5px)!important}}

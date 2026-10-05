@@ -27,7 +27,7 @@ function Demos(){
     <section className="demoSubmit">
       <div className="demoIntro">
         <small>DEMO TRANSMISSION / 001</small>
-        <h2>SEND US<br/><em>THE ONE.</em></h2>
+        <h2>SEND US<br/><em>THE ONE</em></h2>
         <p>The official Spacedisco demos page directs submissions to <strong>{demoEmail}</strong>. We’ve turned that into a cleaner submission flow so your email arrives organized and easy to review.</p>
         <div className="demoRules"><span>01</span><p>Send a private streaming link. SoundCloud, Dropbox, Drive or another accessible link works best.</p><span>02</span><p>Make sure the link actually plays and permissions are enabled.</p><span>03</span><p>Keep the introduction short. Let the music do the work.</p></div>
       </div>
