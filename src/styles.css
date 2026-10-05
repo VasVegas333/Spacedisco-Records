@@ -201,3 +201,40 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
 @media(max-width:1100px){.mixArchive{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:700px){.mixArchive{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.mixArchive{grid-template-columns:1fr}}
+
+/* Final desktop header geometry: oversized logo centered to viewport/menu axis */
+@media(min-width:851px){
+  nav{
+    position:relative!important;
+    height:184px!important;
+    grid-template-rows:136px 48px!important;
+    overflow:visible!important;
+  }
+  nav a.logoBrand{
+    position:absolute!important;
+    left:50%!important;
+    top:8px!important;
+    width:340px!important;
+    height:122px!important;
+    margin:0!important;
+    transform:translateX(-50%)!important;
+    transform-origin:center center!important;
+    overflow:visible!important;
+  }
+  nav a.logoBrand img{
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+    object-position:center center!important;
+    transform:none!important;
+    margin:0!important;
+  }
+  nav .navlinks{
+    position:absolute!important;
+    left:50%!important;
+    bottom:14px!important;
+    transform:translateX(-50%)!important;
+    width:max-content!important;
+    margin:0!important;
+  }
+}
