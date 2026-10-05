@@ -72,9 +72,25 @@ async function main(){
     }
   }
   if(!pages['/']||!pages['/music']||artists.length<20) throw new Error('Squarespace sync incomplete; refusing to overwrite good content');
+  const releaseFile='src/data/releases.json';
+  const currentReleases=JSON.parse(await fs.readFile(releaseFile,'utf8').catch(()=> '[]'));
+  const musicImages=pages['/music'].images||[];
+  const normalized=u=>{try{return decodeURIComponent(u).replace(/\\+/g,' ')}catch{return u.replace(/\\+/g,' ')}};
+  const artworkFor=release=>{
+    const number=String(release.catalog||'').match(/SDR\\s*0*(\\d+)/i)?.[1];
+    if(number){
+      const re=new RegExp('(?:^|[^0-9])SDR\\\\s*0*'+Number(number)+'(?:[^0-9]|$)','i');
+      const hit=musicImages.find(u=>re.test(normalized(u)));
+      if(hit)return hit;
+    }
+    if(/10 year part 2/i.test(release.title||''))return musicImages.find(u=>/10 Year Pt 2/i.test(normalized(u)))||'';
+    return '';
+  };
+  const releases=currentReleases.map(r=>({...r,artwork:artworkFor(r)}));
   const payload={source:BASE,syncedAt:new Date().toISOString(),pages,artists};
   await fs.writeFile('src/data/squarespace.json',JSON.stringify(payload,null,2)+'\n');
-  await fs.writeFile('src/data/artists.json',JSON.stringify(artists.map(a=>({...a,name:a.name.toUpperCase(),location:'',bio:''})),null,2)+'\n');
+  await fs.writeFile('src/data/artists.json',JSON.stringify(artists.map(a=>({...a,name:a.name.toUpperCase(),location:'',bio:''})),null,2)+'\\n');
+  await fs.writeFile(releaseFile,JSON.stringify(releases,null,2)+'\\n');
   console.log('Squarespace sync complete:',Object.keys(pages).length,'pages,',artists.length,'artists');
 }
 main().catch(e=>{console.error(e);process.exit(1)});
