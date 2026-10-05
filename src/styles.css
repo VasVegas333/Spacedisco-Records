@@ -39,3 +39,12 @@ nav{height:116px;display:grid;grid-template-columns:1fr auto 1fr;grid-template-r
 .eventGrid span{position:absolute;top:14px;left:14px;background:#070707;color:#dfff00;padding:7px 9px;font-size:9px}
 .eventGrid b{position:absolute;right:14px;bottom:14px;background:#dfff00;color:#070707;padding:10px 12px;font-size:10px;display:flex;align-items:center;gap:8px}
 @media(max-width:850px){.eventGrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.eventGrid{grid-template-columns:1fr}}
+
+
+.musicCatalogue{padding:2vw 2vw 100px;display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:#333}
+.musicCatalogue>a,.musicCatalogue>article{position:relative;display:block;aspect-ratio:1;overflow:hidden;background:#111}
+.musicCatalogue img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s cubic-bezier(.2,.8,.2,1),filter .3s}
+.musicCatalogue>a:hover img{transform:scale(1.04);filter:brightness(.68)}
+.musicCatalogue b{position:absolute;left:10px;bottom:10px;background:#dfff00;color:#070707;padding:8px 10px;font-size:9px;display:flex;align-items:center;gap:7px;opacity:0;transform:translateY(8px);transition:.25s}
+.musicCatalogue>a:hover b{opacity:1;transform:none}
+@media(max-width:1100px){.musicCatalogue{grid-template-columns:repeat(4,1fr)}}@media(max-width:700px){.musicCatalogue{grid-template-columns:repeat(2,1fr)}}
