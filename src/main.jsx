@@ -14,7 +14,33 @@ function Artists(){return <><PageHead n="ARTISTS" kicker="02 / ROSTER"><p>THE PE
 function Artist(){const{slug}=useParams();const a=artists.find(x=>x.slug===slug);if(!a)return <NotFound/>;const rs=releases.filter(r=>r.artist.toUpperCase()===a.name);return <><section className="artistHero hasPhoto"><div className="artistHeroCopy"><small>SPACEDISCO ARTIST / {a.location}</small><h1>{a.name}</h1><p>{a.bio}</p><a className="artistInquiry" href="mailto:SpacediscoRecords@gmail.com">BOOKING / INQUIRIES <ArrowUpRight size={18}/></a></div>{a.image&&<div className="artistHeroPhoto"><img src={a.image} alt=""/></div>}<div className="artistGhost">{a.name}</div></section><section className="section"><header><div><small>DISCOGRAPHY</small><h2>ON THE LABEL</h2></div></header>{rs.length?<ReleaseGrid items={rs}/>:<p className="empty">CATALOGUE SIGNAL INCOMING.</p>}</section></>}
 function Events(){return <><PageHead n="EVENTS" kicker="03 / IRL"><p>FROM THE LABEL TO THE ROOM. EVENTS PULLED DIRECTLY FROM SPACEDISCO.</p></PageHead><section className="eventGrid">{events.map((e,i)=>{const card=<><img src={e.image} alt={`Spacedisco event ${i+1}`} loading="lazy"/><span>{String(i+1).padStart(2,'0')}</span>{e.link&&<b>TICKETS <ArrowUpRight size={18}/></b>}</>;const item=e.link?<a href={e.link} target="_blank" rel="noreferrer">{card}</a>:<article>{card}</article>;return <Reveal className="gridReveal" delay={(i%3)*80} key={e.image}>{item}</Reveal>})}</section></>}
 function Mixes(){return <><PageHead n="MIXES" kicker="04 / BROADCASTS"><p>THE SPACEDISCO MIX ARCHIVE. RADIO, GUEST MIXES AND AFTER-HOURS TRANSMISSIONS.</p></PageHead><section className="mixArchive">{mixes.map((mix,i)=>{const card=<><img src={mix.image} alt={`Spacedisco mix ${i+1}`} loading="lazy"/><span>{mix.number}</span>{mix.link&&<b><Play size={16} fill="currentColor"/> LISTEN</b>}</>;const item=mix.link?<a href={mix.link} target="_blank" rel="noreferrer">{card}</a>:<article>{card}</article>;return <Reveal className="gridReveal" delay={(i%4)*65} key={mix.image}>{item}</Reveal>})}</section></>}
-function Demos(){return <><PageHead n="DEMOS" kicker="05 / SEND A SIGNAL"><p>WE WANT MUSIC WITH IDENTITY. HOUSE MUSIC THAT MOVES PEOPLE AND DOESN'T SOUND LIKE EVERYTHING ELSE.</p></PageHead><section className="demoPage"><div><small>BEFORE YOU SEND</small><h2>MAKE IT<br/>IMPOSSIBLE<br/>TO IGNORE.</h2></div><div><p>Send private streaming links only. Include a short introduction, artist name and contact information. Please don't attach large audio files.</p><a className="button" href="mailto:demos@spacediscorecords.com">SUBMIT YOUR DEMO <ArrowUpRight/></a></div></section></>}
+function Demos(){
+  const demoEmail='SpacediscoRecords@gmail.com';
+  const [artist,setArtist]=useState('');
+  const [track,setTrack]=useState('');
+  const [link,setLink]=useState('');
+  const [note,setNote]=useState('');
+  const subject=encodeURIComponent(`DEMO SUBMISSION — ${artist||'ARTIST'} — ${track||'TRACK'}`);
+  const body=encodeURIComponent(`Artist: ${artist}\nTrack: ${track}\nPrivate streaming link: ${link}\n\nAbout the record / artist:\n${note}\n\nContact email:\n`);
+  const ready=artist.trim()&&track.trim()&&/^https?:\/\//i.test(link.trim());
+  return <><PageHead n="DEMOS" kicker="05 / SEND A SIGNAL"><p>SPACEDISCO IS LISTENING. SEND US YOUR BEST MUSIC DIRECTLY.</p></PageHead>
+    <section className="demoSubmit">
+      <div className="demoIntro">
+        <small>DEMO TRANSMISSION / 001</small>
+        <h2>SEND US<br/><em>THE ONE.</em></h2>
+        <p>The official Spacedisco demos page directs submissions to <strong>{demoEmail}</strong>. We’ve turned that into a cleaner submission flow so your email arrives organized and easy to review.</p>
+        <div className="demoRules"><span>01</span><p>Send a private streaming link. SoundCloud, Dropbox, Drive or another accessible link works best.</p><span>02</span><p>Make sure the link actually plays and permissions are enabled.</p><span>03</span><p>Keep the introduction short. Let the music do the work.</p></div>
+      </div>
+      <form className="demoForm" onSubmit={e=>{e.preventDefault();if(ready)window.location.href=`mailto:${demoEmail}?subject=${subject}&body=${body}`}}>
+        <div className="demoField"><label>ARTIST NAME</label><input value={artist} onChange={e=>setArtist(e.target.value)} placeholder="Your artist name" required/></div>
+        <div className="demoField"><label>TRACK TITLE</label><input value={track} onChange={e=>setTrack(e.target.value)} placeholder="Track title" required/></div>
+        <div className="demoField"><label>PRIVATE STREAMING LINK</label><input type="url" value={link} onChange={e=>setLink(e.target.value)} placeholder="https://" required/></div>
+        <div className="demoField"><label>SHORT INTRO <i>OPTIONAL</i></label><textarea value={note} onChange={e=>setNote(e.target.value)} placeholder="A few lines about you and the record." rows="5"/></div>
+        <button className="demoSend" type="submit" disabled={!ready}><span>PREPARE DEMO EMAIL</span><ArrowUpRight size={24}/></button>
+        <p className="demoFine">This opens your email app with the submission addressed to {demoEmail}. Your audio is not uploaded to this website.</p>
+      </form>
+    </section>
+  </>}
 function FeatureGrid(){return <section className="world"><Link to="/mixes"><small>03 / BROADCASTS</small><h2>RADIO<br/>+ MIXES</h2><ArrowUpRight/></Link><Link to="/events"><small>04 / IRL</small><h2>EVENTS</h2><ArrowUpRight/></Link><Link className="acid" to="/music"><small>05 / CATALOGUE</small><h2>SELECTIONS</h2><ArrowUpRight/></Link></section>}
 function DemoCTA(){return <section className="demo"><small>DEMO SUBMISSIONS</small><h2>YOUR MUSIC BELONGS HERE</h2><div><p>Send us something we can't ignore. Fresh talent and forward-thinking house music.</p><Link className="button dark" to="/demos">SUBMIT YOUR DEMO <ArrowUpRight/></Link></div></section>}
 function NotFound(){return <PageHead n="404" kicker="SIGNAL LOST"><p>THAT TRANSMISSION DOESN'T EXIST. <Link to="/">RETURN HOME →</Link></p></PageHead>}
