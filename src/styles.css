@@ -124,3 +124,14 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
   .eventFeature .latestCopy{max-width:70%;padding-right:15vw}
   .latestCopy h1,.latestCopy h2{font-size:clamp(48px,4.7vw,82px);line-height:.84}
 }
+
+/* True visual centering for the header logo */
+@media(min-width:851px){
+  nav a.logoBrand{position:absolute!important;left:50%!important;top:0!important;transform:translateX(-50%)!important}
+  nav a.logoBrand img{transform:scale(1.5)!important;transform-origin:center center!important;object-position:center center!important}
+  .navlinks{grid-column:1/4;grid-row:2;justify-self:center}
+}
+@media(max-width:850px){
+  nav a.logoBrand{left:50%!important;transform:translateX(-50%)!important}
+  nav a.logoBrand img{transform:scale(1.35)!important;transform-origin:center center!important;object-position:center center!important}
+}
