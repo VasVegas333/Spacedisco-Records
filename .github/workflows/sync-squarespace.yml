@@ -23,5 +23,10 @@ jobs:
           git config user.name "spacedisco-content-bot"
           git config user.email "actions@users.noreply.github.com"
           git add src/data/squarespace.json src/data/artists.json src/data/releases.json
-          git diff --cached --quiet || git commit -m "Auto-sync Squarespace content"
-          git push
+          if git diff --cached --quiet; then
+            echo "No Squarespace content changes"
+            exit 0
+          fi
+          git commit -m "Auto-sync Squarespace content"
+          git pull --rebase origin main
+          git push origin HEAD:main
