@@ -1,10 +1,10 @@
 export const releases=[
-{catalog:'SDR528',slug:'party-g',artist:'Hatiras',title:'Party G',year:'2026',genre:'House',featured:true},
-{catalog:'SDR527',slug:'music-is-the-answer',artist:'Angelo Ferreri',title:'Music Is The Answer',year:'2026',genre:'House'},
-{catalog:'SDR526',slug:'set-me-free',artist:'The Cube Guys',title:'Set Me Free',year:'2026',genre:'House'},
-{catalog:'SDR525',slug:'good-times',artist:'Sebb Junior',title:'Good Times',year:'2026',genre:'Deep House'},
-{catalog:'SDR524',slug:'take-you-higher',artist:'Demarcus Lewis',title:'Take You Higher',year:'2026',genre:'House'},
-{catalog:'SDR523',slug:'all-night-long',artist:'Treasure Fingers',title:'All Night Long',year:'2026',genre:'House'}
+{catalog:'SDR547',slug:'grapevine-remix',artist:'Travis Emmons + Brett Rubin + Trice Be',title:"Grapevine (Jerome Robins 'Terrace Afterhours' Remix)",year:'2026',genre:'House',featured:true,artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/4982a379-f34d-464f-a373-dcb969c59824/SDR%2B547%2B1080.jpg'},
+{catalog:'SDR546',slug:'block-party',artist:'Akeem Raphael + Carlo Caldareri',title:'Block Party',year:'2026',genre:'House',artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/7e329bab-f083-4335-902a-6b322a3fdfb9/SDR%2B546%2B1080.jpg'},
+{catalog:'SDR545',slug:'spaced-invader-z-remix',artist:'Hatiras',title:'Spaced Invader Z (Antoine Clamaran Remix)',year:'2026',genre:'House',artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/cdfdfac9-c232-49e4-b170-774ac73c6d17/SDR%2B545%2B1080.jpg'},
+{catalog:'SDR544',slug:'higher',artist:'Vincent Caira',title:'Higher',year:'2026',genre:'House',artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/132c0795-e17d-425a-9997-e5f5d554b8b7/SDR%2B542%2B1080.jpg'},
+{catalog:'SDR542',slug:'addicted-love',artist:'Hobbs (UK)',title:'Addicted Love',year:'2026',genre:'House',artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/67fe743c-3877-45cb-8333-a1bedbb78a7b/SDR%2B542%2B1080.jpg'},
+{catalog:'SDR539',slug:'stay-on-the-road',artist:'Raffaele Ciavolino',title:'Stay On The Road',year:'2026',genre:'House',artwork:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1fb9a9d3-3e04-4963-acb9-092bb83648ae/SDR%2B539%2B1080.jpg'}
 ];
 export const artists=[
 {name:'HATIRAS',image:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645570427992-QPAQWFBV8O052QBYSWBN/Hatiras%2BPurple%2BSQ%2B3.png',slug:'hatiras',location:'Toronto / Canada',bio:'Producer, DJ and founder of Spacedisco Records. House music built for movement.'},
