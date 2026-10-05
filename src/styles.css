@@ -110,3 +110,17 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
 .eventFeature .latestArtwork{box-shadow:18px 18px 0 #070707}
 @media(max-width:1100px){.latestPanel{grid-template-columns:1fr}.latestArtwork{max-width:420px}}
 @media(max-width:700px){.latestHero{grid-template-columns:1fr;min-height:0}.latestPanel{min-height:720px;padding:70px 5vw;grid-template-columns:1fr}.latestPanel:first-child{border-right:0;border-bottom:1px solid #333}.latestCopy h1,.latestCopy h2{font-size:clamp(55px,15vw,90px)}.latestArtwork{max-width:100%}}
+
+/* Desktop latest-release/event hero layout correction */
+@media(min-width:1101px){
+  .latestHero{grid-template-columns:1fr 1fr;min-height:calc(100vh - 116px)}
+  .latestPanel{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:1fr;align-items:stretch;padding:0;gap:0;min-height:calc(100vh - 116px)}
+  .latestCopy{grid-area:1/1;z-index:3;align-self:end;padding:0 4vw 5vw;max-width:78%;pointer-events:none}
+  .latestCopy .button{pointer-events:auto}
+  .latestArtwork{grid-area:1/1;width:46%;max-width:520px;align-self:center;justify-self:end;margin-right:2.5vw;z-index:1}
+  .releaseFeature .latestArtwork{opacity:.95}
+  .releaseFeature .latestCopy{padding-right:18vw}
+  .eventFeature .latestArtwork{width:42%;max-width:460px;margin-right:2.5vw}
+  .eventFeature .latestCopy{max-width:70%;padding-right:15vw}
+  .latestCopy h1,.latestCopy h2{font-size:clamp(48px,4.7vw,82px);line-height:.84}
+}
