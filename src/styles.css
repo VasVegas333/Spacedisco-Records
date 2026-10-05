@@ -150,3 +150,41 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
   .eventFeature .latestCopy{max-width:48%!important;padding-right:2vw!important}
   .eventFeature .latestArtwork{width:42%!important;max-width:370px!important;margin-right:2vw!important}
 }
+
+/* Canonical desktop header lockup: larger, centered above menu, never clipped */
+@media(min-width:851px){
+  nav{
+    height:154px!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    grid-template-rows:108px 46px!important;
+    padding:0 2vw!important;
+    overflow:visible!important;
+  }
+  nav a.logoBrand{
+    position:static!important;
+    grid-column:1!important;
+    grid-row:1!important;
+    justify-self:center!important;
+    align-self:center!important;
+    width:270px!important;
+    height:100px!important;
+    max-width:none!important;
+    transform:none!important;
+    overflow:visible!important;
+  }
+  nav a.logoBrand img{
+    display:block!important;
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+    object-position:center center!important;
+    transform:none!important;
+  }
+  nav .navlinks{
+    grid-column:1!important;
+    grid-row:2!important;
+    justify-self:center!important;
+    align-self:start!important;
+  }
+}
