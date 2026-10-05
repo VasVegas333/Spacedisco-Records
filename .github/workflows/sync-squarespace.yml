@@ -16,12 +16,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Pull content from Squarespace
+      - name: Pull all public content from Squarespace
         run: node scripts/sync-squarespace.mjs
       - name: Commit Squarespace changes
         run: |
           git config user.name "spacedisco-content-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/data/artists.json
+          git add src/data/squarespace.json src/data/artists.json
           git diff --cached --quiet || git commit -m "Auto-sync Squarespace content"
           git push
