@@ -9,3 +9,16 @@ button,.button{cursor:pointer}.button{background:#dfff00;color:#070707;padding:1
 
 .logoBrand{height:64px;width:118px;display:flex;align-items:center}.logoBrand img{display:block;width:100%;height:100%;object-fit:contain;object-position:left center}.footerLogo{display:block;width:min(220px,70%);height:auto;margin-bottom:24px}
 @media(max-width:850px){.logoBrand{height:58px;width:105px}.footerLogo{width:180px}}
+
+
+/* Center the header logo above the navigation menu */
+nav{height:116px;display:grid;grid-template-columns:1fr auto 1fr;grid-template-rows:68px 48px;align-items:center}
+.logoBrand{grid-column:2;grid-row:1;justify-self:center}
+.navlinks{grid-column:1/4;grid-row:2;justify-self:center}
+.menu{grid-column:3;grid-row:1;justify-self:end}
+@media(max-width:850px){
+  nav{height:80px;display:flex}
+  .logoBrand{position:absolute;left:50%;transform:translateX(-50%)}
+  .navlinks.open{top:80px}
+  .menu{margin-left:auto}
+}
