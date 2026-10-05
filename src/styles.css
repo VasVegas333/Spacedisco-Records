@@ -135,3 +135,18 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
   nav a.logoBrand{left:50%!important;transform:translateX(-50%)!important}
   nav a.logoBrand img{transform:scale(1.35)!important;transform-origin:center center!important;object-position:center center!important}
 }
+
+/* Desktop viewport containment fixes */
+@media(min-width:1101px){
+  nav{overflow:visible!important}
+  nav a.logoBrand{top:0!important;height:68px!important;overflow:visible!important}
+  nav a.logoBrand img{width:100%!important;height:100%!important;transform:none!important;object-fit:contain!important;object-position:center center!important}
+  .latestHero{min-height:0!important;height:auto!important}
+  .latestPanel{min-height:760px!important;height:auto!important;overflow:hidden!important}
+  .latestCopy{max-width:48%!important;padding:0 2.5vw 4vw!important}
+  .latestCopy h1,.latestCopy h2{font-size:clamp(44px,4vw,68px)!important;line-height:.86!important}
+  .latestArtwork{width:44%!important;max-width:390px!important;margin-right:2.5vw!important}
+  .releaseFeature .latestCopy{padding-right:2vw!important}
+  .eventFeature .latestCopy{max-width:48%!important;padding-right:2vw!important}
+  .eventFeature .latestArtwork{width:42%!important;max-width:370px!important;margin-right:2vw!important}
+}
