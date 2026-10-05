@@ -11,11 +11,6 @@ const musicImages=musicPage.images.filter(src=>!/spacedisco[+%20].*logo/i.test(s
 const musicLinks=musicPage.links.filter(x=>/^listen$/i.test((x.label||'').trim()));
 export const musicCatalogue=musicImages.map((artwork,i)=>({artwork,listen:musicLinks[i]?.href||'',number:i+1}));
 
-const musicPage=squarespaceData.pages?.['/music']||{images:[],links:[]};
-const musicImages=musicPage.images.filter(src=>!/spacedisco[+%20].*logo/i.test(src));
-const musicLinks=musicPage.links.filter(x=>/^listen$/i.test((x.label||'').trim()));
-export const musicCatalogue=musicImages.map((artwork,i)=>({artwork,listen:musicLinks[i]?.href||'',number:i+1}));
-
 const page=(path)=>squarespaceData.pages?.[path]||{headings:[],images:[],links:[],text:''};
 const cards=(path)=>page(path).headings
   .filter(h=>h.level>=2)
