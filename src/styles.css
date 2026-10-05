@@ -276,3 +276,66 @@ footer>h2{
 /* Keep Dancing: 10% smaller than the current restored scale */
 footer>h2{font-size:clamp(79.2px,13.95vw,211.5px)!important}
 @media(max-width:700px){footer>h2{font-size:clamp(68.4px,19.8vw,130.5px)!important}}
+
+/* Mobile containment pass — prevent horizontal clipping across the site */
+@media(max-width:850px){
+  html,body,#root{width:100%;max-width:100%;overflow-x:hidden}
+  img,svg{max-width:100%}
+  nav{width:100%;max-width:100%;padding:0 18px!important}
+  nav a.logoBrand{width:190px!important;height:66px!important;left:50%!important;transform:translateX(-50%)!important;overflow:visible!important}
+  nav a.logoBrand img{width:100%!important;height:100%!important;transform:none!important;object-fit:contain!important;object-position:center!important}
+  .menu{position:relative;z-index:30;flex:0 0 auto}
+  .navlinks.open{left:0!important;right:0!important;width:100%!important;max-width:100vw!important}
+
+  .latestHero,.latestPanel,.latestCopy,.latestArtwork,
+  .section,.pageHead,.detail,.artistHero,.artistHeroCopy,
+  .demo,.demoSubmit,.demoIntro,.demoForm,.world,footer{
+    width:100%;max-width:100%;min-width:0
+  }
+  .latestPanel{min-height:0!important;padding:56px 20px!important;gap:34px!important;overflow:hidden!important}
+  .latestCopy{max-width:100%!important;padding:0!important}
+  .latestCopy h1,.latestCopy h2{font-size:clamp(46px,14vw,72px)!important;line-height:.84!important;overflow-wrap:anywhere}
+  .latestArtwork{width:100%!important;max-width:420px!important;margin:0 auto!important;justify-self:center!important}
+  .eventFeature .latestArtwork{width:calc(100% - 18px)!important;margin:0 18px 18px 0!important;box-shadow:12px 12px 0 #070707!important}
+
+  .section{padding:64px 20px!important}
+  .section header{gap:20px;align-items:flex-end}
+  .section header h2{font-size:clamp(48px,16vw,76px)!important}
+  .releaseGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+  .release,.release h3,.release p{min-width:0;overflow-wrap:anywhere}
+
+  .pageHead{padding:90px 20px 40px!important;min-height:44vh!important;overflow:hidden}
+  .pageHead h1{font-size:clamp(66px,22vw,118px)!important;line-height:.8!important;overflow-wrap:anywhere}
+  .pageHead p{max-width:100%;font-size:11px;letter-spacing:1px}
+
+  .musicCatalogue,.eventGrid,.mixArchive{width:100%;max-width:100%;padding:20px 20px 70px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .artistGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important;width:100%;max-width:100%}
+
+  .detail{padding:55px 20px!important;gap:35px!important}
+  .detail h1{font-size:clamp(52px,16vw,82px)!important;overflow-wrap:anywhere}
+  .actions{flex-wrap:wrap}
+  .actions>*{max-width:100%}
+
+  .artistHero.hasPhoto{width:100%;max-width:100%;overflow:hidden}
+  .artistHeroCopy{padding:55px 20px!important;min-width:0}
+  .artistHero.hasPhoto h1{font-size:clamp(54px,17vw,92px)!important;overflow-wrap:anywhere}
+
+  .world{grid-template-columns:1fr!important;width:100%}
+  .world>a{width:100%;min-width:0;padding:24px 20px!important;overflow:hidden}
+  .world h2{font-size:clamp(48px,17vw,86px)!important;overflow-wrap:anywhere}
+
+  .demo{padding:60px 20px!important;gap:28px!important}
+  .demo h2{font-size:clamp(52px,17vw,88px)!important;overflow-wrap:anywhere}
+  .demoIntro,.demoForm{padding:58px 20px!important;min-width:0}
+  .demoIntro h2{font-size:clamp(54px,17vw,86px)!important;overflow-wrap:anywhere}
+  .demoField input,.demoField textarea{min-width:0;max-width:100%}
+  .demoSend{max-width:100%;gap:15px}
+
+  footer{padding:70px 20px 32px!important;overflow:hidden}
+  footer>h2{font-size:clamp(64px,19vw,112px)!important;max-width:100%;overflow-wrap:anywhere}
+}
+@media(max-width:480px){
+  .musicCatalogue,.eventGrid,.mixArchive{grid-template-columns:1fr!important}
+  .artistGrid{grid-template-columns:1fr!important}
+  .latestCopy h1,.latestCopy h2{font-size:clamp(44px,13vw,62px)!important}
+}
