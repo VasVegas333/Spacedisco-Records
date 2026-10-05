@@ -27,12 +27,12 @@ export const events=eventImages.map((image,i)=>({
   number:String(i+1).padStart(2,'0')
 }));
 
-export const mixes=cards('/mixes').map((x,i)=>({
+const mixesPage=page('/mixes');
+const mixImages=mixesPage.images.filter(src=>!/spacedisco[+%20].*logo/i.test(src));
+const mixLinks=mixesPage.links.filter(x=>/^listen$/i.test((x.label||'').trim()));
+export const mixes=mixImages.map((image,i)=>({
   number:String(i+1).padStart(3,'0'),
-  title:x.title,
-  artist:'',
-  length:'',
-  image:x.image,
-  link:x.link,
+  image,
+  link:mixLinks[i]?.href||'',
   source:'Squarespace'
 }));

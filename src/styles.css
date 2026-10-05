@@ -188,3 +188,16 @@ footer img.footerLogo{width:118px!important;max-width:none!important;height:auto
     align-self:start!important;
   }
 }
+
+/* Squarespace Mixes archive */
+.mixArchive{padding:2vw 2vw 100px;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#333}
+.mixArchive>.gridReveal{aspect-ratio:1;overflow:hidden}
+.mixArchive>.gridReveal>a,.mixArchive>.gridReveal>article{position:relative;display:block;width:100%;height:100%;overflow:hidden;background:#111}
+.mixArchive img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s cubic-bezier(.2,.8,.2,1),filter .3s}
+.mixArchive a:hover img{transform:scale(1.04);filter:brightness(.65)}
+.mixArchive span{position:absolute;top:12px;left:12px;background:#070707;color:#dfff00;padding:7px 9px;font-size:9px;z-index:2}
+.mixArchive b{position:absolute;left:12px;bottom:12px;background:#dfff00;color:#070707;padding:9px 11px;font-size:9px;display:flex;align-items:center;gap:7px;opacity:0;transform:translateY(8px);transition:.25s}
+.mixArchive a:hover b{opacity:1;transform:none}
+@media(max-width:1100px){.mixArchive{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.mixArchive{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.mixArchive{grid-template-columns:1fr}}
