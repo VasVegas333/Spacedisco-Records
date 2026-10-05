@@ -1,13 +1,5 @@
-export const releases=[
-{catalog:'SDR551',slug:'mi-amigo',artist:'Simon Adams',title:'Mi Amigo',date:'2026-09-25',year:'2026',genre:'House',featured:true,beatport:'https://www.beatport.com/release/mi-amigo/7393339',traxsource:'https://www.traxsource.com/label/28751/spacedisco-records'},
-{catalog:'SDR550',slug:'your-love',artist:'Trimtone',title:'Your Love',date:'2026-09-18',year:'2026',genre:'House / Jackin House',beatport:'https://www.beatport.com/release/your-love/7384505',traxsource:'https://www.traxsource.com/artist/160476/trimtone'},
-{catalog:'SDR549',slug:'go-for-it',artist:'Hatiras',title:'Go For It!',date:'2026-09-18',year:'2026',genre:'Jackin House',beatport:'https://www.beatport.com/release/go-for-it/7348144',traxsource:'https://www.traxsource.com/title/2858418/go-for-it'},
-{catalog:'SDR548',slug:'let-me-tell-you',artist:'FederFunk',title:'Let Me Tell You',date:'2026-09-11',year:'2026',genre:'Jackin House',beatport:'https://www.beatport.com/release/let-me-tell-you/7346323',traxsource:'https://www.traxsource.com/track/14964452/let-me-tell-you-extended-mix'},
-{catalog:'SDR545',slug:'spaced-invader-z',artist:'Hatiras',title:'Spaced Invader Z',date:'2026-08-27',year:'2026',genre:'House',beatport:'https://www.beatport.com/label/spacedisco-records/58874',traxsource:'https://www.traxsource.com/title/2848292/spaced-invader-z'},
-{catalog:'SDR544',slug:'higher',artist:'Vincent Caira',title:'Higher',date:'2026-08-28',year:'2026',genre:'Jackin House',beatport:'https://www.beatport.com/release/higher/7258045',traxsource:'https://www.traxsource.com/label/28751/spacedisco-records'},
-{catalog:'SDR543',slug:'10-year-part-2',artist:'Various Artists',title:'Spacedisco Records 10 Year Part 2',date:'2026-08-07',year:'2026',genre:'House / Jackin House',beatport:'https://www.beatport.com/release/spacedisco-records-10-year-part-2/7236541',traxsource:'https://www.traxsource.com/title/2841338/spacedisco-records-10-year-part-2'},
-{catalog:'SDR542',slug:'addicted-love',artist:'Hobbs (UK)',title:'Addicted Love',date:'2026-08-14',year:'2026',genre:'House',beatport:'https://www.beatport.com/label/spacedisco-records/58874',traxsource:'https://www.traxsource.com/title/2831927/addicted-love'}
-];
+import releasesData from './releases.json';
+export const releases=releasesData;
 export const artists=[
 {name:'HATIRAS',image:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645570427992-QPAQWFBV8O052QBYSWBN/Hatiras%2BPurple%2BSQ%2B3.png',slug:'hatiras',location:'Toronto / Canada',bio:'Producer, DJ and founder of Spacedisco Records. House music built for movement.'},
 {name:'ANGELO FERRERI',image:'https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/1645569077653-55YSJMLSW4CG0NDWD1IS/Angello%2BFerreri%2BRed%2BSQ.png',slug:'angelo-ferreri',location:'Italy',bio:'Funk-driven house with a signature rhythmic pulse.'},
