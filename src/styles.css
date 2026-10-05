@@ -339,3 +339,16 @@ footer>h2{font-size:clamp(79.2px,13.95vw,211.5px)!important}
   .artistGrid{grid-template-columns:1fr!important}
   .latestCopy h1,.latestCopy h2{font-size:clamp(44px,13vw,62px)!important}
 }
+
+
+/* Mobile footer: keep KEEP / DANCING. as two intentional lines with no orphan */
+@media(max-width:850px){
+  footer>h2{
+    font-size:clamp(54px,16vw,96px)!important;
+    line-height:.82!important;
+    letter-spacing:-.055em!important;
+    overflow-wrap:normal!important;
+    word-break:keep-all!important;
+    white-space:nowrap!important;
+  }
+}
