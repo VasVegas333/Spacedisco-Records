@@ -1,6 +1,6 @@
 {
   "source": "https://spacediscorecords.squarespace.com",
-  "syncedAt": "2026-10-28T20:58:35.523Z",
+  "syncedAt": "2026-10-29T00:48:31.457Z",
   "pages": {
     "/": {
       "path": "/",
@@ -3886,10 +3886,11 @@
       "images": [
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/a11c1dc6-1253-49fa-a0a3-a959b03dfbf1/spacedisco+logo+sq+white.png?format=1500w",
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/00ecc8b8-e4d8-49c4-bedf-8a34a7c39c40/Halloween+AndThenYou+SQ+1080.jpg",
-        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/8b0b63a2-dbef-4976-b277-583f1a394cf9/20261021-NOA-4x5.jpeg",
-        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2303a2d5-7258-4b0f-bf3b-a865bccd2280/ADE+Mason+SQ.png",
-        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/cf318504-7d42-487e-aab4-fa0181d1cd67/DT+ADE+SQ.png",
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/08f15e89-b33b-4034-b302-bca641c1d8e7/NOV212026.jpg",
+        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/cf318504-7d42-487e-aab4-fa0181d1cd67/DT+ADE+SQ.png",
+        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2818c2fb-da7a-49e9-8fae-bdb60df036e9/20261022-PHXADE-4x5+%281%29.jpg",
+        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/2303a2d5-7258-4b0f-bf3b-a865bccd2280/ADE+Mason+SQ.png",
+        "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/8b0b63a2-dbef-4976-b277-583f1a394cf9/20261021-NOA-4x5.jpeg",
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/bf8adb09-baf5-4a57-997f-1a0d8e8e7369/ChatGPT+Image+Sep+16%2C+2026%2C+03_51_48+PM.png",
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/0e0fb39b-231b-44ee-9738-94ed8146debf/784902645_1806876010665966_8731018570194034439_n.jpg",
         "https://images.squarespace-cdn.com/content/v1/62043b7703ed5553947b7976/c1f958ae-a9d4-4eec-9137-37ce2ccc9895/ChatGPT+Image+Sep+2%2C+2026%2C+12_35_03+PM.png",
@@ -4184,18 +4185,6 @@
           "href": "https://app.tickettailor.com/events/spacediscorecords/2448867"
         },
         {
-          "label": "RSVP",
-          "href": "https://www.eventbrite.ca/e/spacedisco-records-x-phoenix-music-ade-2026-tickets-2002568635697"
-        },
-        {
-          "label": "Details",
-          "href": "https://www.instagram.com/animal.language/"
-        },
-        {
-          "label": "Details",
-          "href": "https://www.amsterdam-dance-event.nl/en/program/2026/data-transmission-presents/2885676/"
-        },
-        {
           "label": "Tickets",
           "href": "https://www.ticketgateway.com/event/view/the-comfort-zone-present---hatiras--"
         },
@@ -4220,7 +4209,7 @@
           "href": "https://www.facebook.com/events/3362872873941180"
         }
       ],
-      "text": "EVENTS &mdash; Spacedisco Records 0 Skip to Content Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos UPCOMING EVENTS Tickets RSVP Details Details Tickets PAST EVENTS Click Here Newsletter Block This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab. Join Spacedisco Records Sign up with your email address to subscribe to the Spacedisco Records newsletter and connect with us! Email Address Sign Up Thank you!"
+      "text": "EVENTS &mdash; Spacedisco Records 0 Skip to Content Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos Open Menu Close Menu Home Events Music Albums Merch Playlist Artists Mixes Booking Demos UPCOMING EVENTS Tickets Tickets PAST EVENTS Click Here Newsletter Block This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab. Join Spacedisco Records Sign up with your email address to subscribe to the Spacedisco Records newsletter and connect with us! Email Address Sign Up Thank you!"
     },
     "/mixes": {
       "path": "/mixes",
